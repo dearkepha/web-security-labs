@@ -22,7 +22,8 @@ The application allows users to change their wallet balance by modifying a clien
 ## Proof of concept
 PUT /rest/wallet/balance HTTP/1.1
 Host: 127.0.0.1:3000
-Host: 127.0.0.1:3000
+Content-Type: application/json
+
 {
     "balance":1000000000000,
     "paymentId":7
