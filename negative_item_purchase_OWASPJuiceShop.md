@@ -19,7 +19,7 @@ The application allows users to manipulate item quantities to negative values, c
 7. Procceed to checkout using wallet balance as payment method
 8. Finish the payment and watch the wallet balance increase
 
-##Proof of concept (PoC)
+## Proof of concept (PoC)
 POST /api/BasketItems/ HTTP/1.1
 Host: 127.0.0.1:3000
 Content-Type: application/json;
