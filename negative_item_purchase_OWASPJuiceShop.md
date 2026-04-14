@@ -1,4 +1,4 @@
-# Negatve Quantity Manipulation Leads to Unlimited Wallet Credit
+# Negative Quantity Manipulation Leads to Unlimited Wallet Credit
 
 ## Target
 OWASP Juice Shop
