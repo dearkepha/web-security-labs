@@ -3,8 +3,6 @@
 ## Target
 OWASP Juice Shop
 
-
-
 ## Severity
 High
 
@@ -16,7 +14,7 @@ The application allows users to change their wallet balance by modifying a clien
 2. Normally add funds to the wallet
 3. Send the intercepted PUT request to repeater
 4. Modify `balance` parameter
-5. Forwar the modified request to browser
+5. Forward the modified request to browser
 6. Refresh the page and observe the updated balance
 
 ## Proof of concept
@@ -25,8 +23,8 @@ Host: 127.0.0.1:3000
 Content-Type: application/json
 
 {
-    "balance":1000000000000,
-    "paymentId":7
+  "balance":1000000000000,
+  "paymentId":7
 }
 
 ## Impact
